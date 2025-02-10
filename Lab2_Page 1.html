@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1</title>
+    <style>
+        body {
+            background-color: #7393b3;
+        }
+
+        label {
+            font-size: 18px;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .input-container {
+            margin: 20px;
+        }
+        input[type="submit"] {
+            background-color: #0047ab;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        input[type="submit"]:hover {
+            background-color: #008080;
+        }
+    </style>
+</head>
+<body>
+    <h2>Inst 377 - Lab 2 - Contact Me</h2>
+    <form action="Lab 2_Page2.html" method="GET">
+        <div class="input-container">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="input-container">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
